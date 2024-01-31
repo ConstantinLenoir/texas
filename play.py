@@ -212,7 +212,8 @@ def group_duplicates(hand):
     len(groups[2]) == 2 denotes a two pair hand.
     For n-of-a-kind hands.
     Naming problems. Some operations are hard to explain in English.
-    Only the
+    Only the two most duplicated card groups are returned (no need of more
+    group for hand evaluation).
     """
     counter = Counter(card_value(c) for c in hand)
     groups = defaultdict(list)
