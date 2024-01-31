@@ -5,7 +5,7 @@ from collections import Counter, defaultdict, namedtuple
 
 class Hand(IntEnum):
     """
-    IntNum make it possible to compare items.
+    IntNum makes it possible to compare items.
     """
 
     HIGH_CARD = 1
